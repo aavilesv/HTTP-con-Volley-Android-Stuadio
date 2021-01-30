@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12C6B7"
+    android:orientation="vertical"
+    tools:context=".Cuidades">
+
+    <TextView
+        android:id="@+id/txtclima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/txtbienvenido"
+        android:textColor="#22271C" />
+
+    <Button
+        android:id="@+id/btncuidad"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btncuidad"
+        android:textColor="#9C27B0" />
+    <Button
+        android:id="@+id/btncuidadotra"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btncuuidaotra"
+        android:textColor="#9C27B0" />
+
+    <Button
+        android:id="@+id/btnnuevo"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clima de la cuidad de Shanghai"
+        android:textColor="#9C27B0" />
+
+</LinearLayout>

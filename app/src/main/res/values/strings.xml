@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="txtgrados">23°</string>
+    <string name="txtciudad">Milagro</string>
+    <string name="txtnublado">Nublado</string>
+    <string name="txtbienvenido">Bienvenido a mi App de Clima seleccionada la opcion del boton</string>
+    <string name="btncuidad">Clima de la cuidad de Madrid</string>
+    <string name="btncuuidaotra">Clima de la cuidad de Quito</string>
+</resources>
